@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
-	"telegram-bot/lib/e"
-	"telegram-bot/storage"
+	"telegram-save-pages-bot/lib/e"
+	"telegram-save-pages-bot/storage"
 	"time"
 
 	"golang.org/x/exp/rand"

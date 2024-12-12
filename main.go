@@ -3,15 +3,15 @@ package main
 import (
 	"flag"
 	"log"
-	tgClient "telegram-bot/clients/telegram"
-	event_consumer "telegram-bot/consumer/event-consumer"
-	tgEvent "telegram-bot/events/telegram"
-	"telegram-bot/storage/files"
+	tgClient "telegram-save-pages-bot/clients/telegram"
+	event_consumer "telegram-save-pages-bot/consumer/event-consumer"
+	tgEvent "telegram-save-pages-bot/events/telegram"
+	"telegram-save-pages-bot/storage/files"
 )
 
 const (
 	tgBotHost   = "api.telegram.org"
-	storagePath = "storage"
+	storagePath = "files_storage"
 	batchSize   = 100
 )
 
@@ -32,7 +32,7 @@ func main() {
 
 func mustToken() string {
 	token := flag.String(
-		"token",
+		"tg-bot-token",
 		"",
 		"token for access to telegram bot",
 	)

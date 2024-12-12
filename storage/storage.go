@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 	"io"
-	"telegram-bot/lib/e"
+	"telegram-save-pages-bot/lib/e"
 )
 
 type Storage interface {

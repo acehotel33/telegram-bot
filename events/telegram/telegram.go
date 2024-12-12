@@ -2,10 +2,10 @@ package telegram
 
 import (
 	"errors"
-	"telegram-bot/clients/telegram"
-	"telegram-bot/events"
-	"telegram-bot/lib/e"
-	"telegram-bot/storage"
+	"telegram-save-pages-bot/clients/telegram"
+	"telegram-save-pages-bot/events"
+	"telegram-save-pages-bot/lib/e"
+	"telegram-save-pages-bot/storage"
 )
 
 type Processor struct {

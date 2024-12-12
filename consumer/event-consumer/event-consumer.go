@@ -2,7 +2,7 @@ package event_consumer
 
 import (
 	"log"
-	"telegram-bot/events"
+	"telegram-save-pages-bot/events"
 	"time"
 )
 

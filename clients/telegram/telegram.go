@@ -8,7 +8,7 @@ import (
 	"path"
 	"strconv"
 
-	"telegram-bot/lib/e"
+	"telegram-save-pages-bot/lib/e"
 )
 
 type Client struct {
